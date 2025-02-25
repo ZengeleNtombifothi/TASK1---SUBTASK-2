@@ -5,23 +5,23 @@ int main() {
     int temp1, temp2, temp3;
 
     // Get temparature inputs
-    count << "Enter the first temperature reading: ";
+    cout << "Enter the first temperature reading: ";
     cin >> temp1;
-    count << "Enter the second temperature reading: ";
+    cout << "Enter the second temperature reading: ";
     cin >> temp2;
-    count << "Enter the third temperature reading: ";
+    cout << "Enter the third temperature reading: ";
     cin >> temp3;
 
     // check for gradual temperature increase
     if ((temp2 - temp1 > 50) || (temp3 - temp2 > 50)) {
-        count << "Oil is not ready for frying." << end1;
+        cout << "Oil is not ready for frying." << end1;
     }
   esle if (temp3 >= 165 && temp3 <= 185)
 {
-        count << "You may start frying the magwinyas." << end1;
+        cout << "You may start frying the magwinyas." << end1;
     }
   else {
-        count << "Oil is not ready for frying." << end1;
+        cout << "Oil is not ready for frying." << end1;
     }
 
   return 0;
