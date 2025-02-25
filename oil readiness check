@@ -16,7 +16,7 @@ int main() {
     if ((temp2 - temp1 > 50) || (temp3 - temp2 > 50)) {
         cout << "Oil is not ready for frying." << end1;
     }
-  esle if (temp3 >= 165 && temp3 <= 185)
+  else if (temp3 >= 165 && temp3 <= 185)
 {
         cout << "You may start frying the magwinyas." << end1;
     }
