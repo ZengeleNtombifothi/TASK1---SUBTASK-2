@@ -14,14 +14,14 @@ int main() {
 
     // check for gradual temperature increase
     if ((temp2 - temp1 > 50) || (temp3 - temp2 > 50)) {
-        cout << "Oil is not ready for frying." << end1;
+        cout << "Oil is not ready for frying." << endl;
     }
   else if (temp3 >= 165 && temp3 <= 185)
 {
-        cout << "You may start frying the magwinyas." << end1;
+        cout << "You may start frying the magwinyas." << endl;
     }
   else {
-        cout << "Oil is not ready for frying." << end1;
+        cout << "Oil is not ready for frying." << endl;
     }
 
   return 0;
